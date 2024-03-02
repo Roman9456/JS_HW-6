@@ -1,0 +1,20 @@
+textarea {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  padding: 10px 20px;
+  margin: 0 0 20px 0;
+  font-family: Golos, Arial, sans-serif;
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+}
+
+#clear-button {
+  background-color: #f44336;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
