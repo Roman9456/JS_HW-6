@@ -24,13 +24,11 @@ signinForm.addEventListener('submit', function(event) {
         welcomeBlock.classList.add('welcome_active');
         user_id.textContent = data.user_id;
 
-        loginInput.value = '';
-        passwordInput.value = '';
+        signinForm.reset();
       } else {
         alert('Неверный логин/пароль');
 
-        loginInput.value = '';
-        passwordInput.value = '';
+        signinForm.reset();
       }
     })
     .catch(error => {
