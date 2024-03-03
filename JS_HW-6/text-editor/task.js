@@ -2,9 +2,7 @@ const editor = document.getElementById('editor');
 
 window.addEventListener('load', () => {
     const savedValue = localStorage.getItem('editorValue');
-    if (savedValue) {
-        editor.value = savedValue;
-    }
+    editor.value = savedValue;
 });
 
 editor.addEventListener('input', () => {
